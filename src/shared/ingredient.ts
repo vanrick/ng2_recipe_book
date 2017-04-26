@@ -1,3 +1,5 @@
-export class Ingredient {
-  constructor(public name: string, public amount: number){ }
+export class Ingredient { //model for ingredient. how should it look like?
+  constructor(
+    public name: string,
+    public amount: number){ }
 }
